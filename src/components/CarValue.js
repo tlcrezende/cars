@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
 
+//refacto do mal!
 function CarValue() {
   const totalCost = useSelector(({ cars: { data, searchTerm } }) =>
     data
